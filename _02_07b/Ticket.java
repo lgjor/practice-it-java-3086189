@@ -29,15 +29,15 @@ public class Ticket {
   // getDestination, getPrice and getIsReturn.
 
   public String getDestination() {
-    return destination;
+    return this.destination;
   }
 
   public double getPrice() {
-    return price;
+    return this.price;
   }
 
   public boolean getIsReturn() {
-    return isReturn;
+    return this.isReturn;
   }
 
 }
